@@ -20,5 +20,5 @@ app.use('/authentication', authentication);
 app.use('/blogs', blogs);
 app.get('*', (req, res) => res.sendFile(path.join(__dirname + '/client/index.html')));
 
-port = process.env.port || 8080;
+port = process.env.PORT || 8080;
 app.listen(port, () => {console.log(`Server listening at port : ${port}`);});
