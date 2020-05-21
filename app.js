@@ -8,7 +8,7 @@ const path = require('path');
 
 mongoose.connect(config.database_uri, (err) => {
     if(err) console.log('Unable to connect to database : ', err);
-    else console.log('Successfully connected to database : 27017');
+    else console.log('Successfully connected to database');
 });
 
 const app = express();
