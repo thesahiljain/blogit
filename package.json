@@ -1,0 +1,26 @@
+{
+  "name": "blogit",
+  "version": "1.0.0",
+  "description": "MEAN Stack Blog App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "mean",
+    "stack",
+    "blog",
+    "app"
+  ],
+  "author": "thesahiljain",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joigoose": "^7.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14"
+  }
+}
